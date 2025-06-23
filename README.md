@@ -15,22 +15,22 @@ Perform a local network port scan using **Nmap** to identify open ports and pote
 
 | Range              | Description                             |
 |--------------------|-----------------------------------------|
-| `10.0.2.0/24`      | NAT network (3 hosts detected)          |
+| 10.0.2.0/24       | NAT network (3 hosts detected)          |
 
 
 ## Nmap Scan Results
 
-# 🖥️ `10.0.2.2`
+# 10.0.2.2
 - `135/tcp` → **msrpc**
 - `445/tcp` → **microsoft-ds**
 - `902/tcp` → **iss-realsecure**
 - `912/tcp` → **apex-mesh**
 - `2869/tcp` → **icslap**
 
-# `10.0.2.3`
+# 10.0.2.3
 - `53/tcp` → **domain (DNS)**
 
-# `10.0.2.15`
+# 10.0.2.15
 - All ports closed (no open ports detected)
 
 ## Risk Analysis
