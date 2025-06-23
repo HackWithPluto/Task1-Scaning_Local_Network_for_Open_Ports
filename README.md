@@ -56,6 +56,7 @@ tcp.flags.syn == 1 && tcp.flags.ack == 0
 - wireshark_result.pcapng – raw output of wireshaark
 - nmap_scan.png – screenshot of terminal output
 - wireshark_scan.png – screenshot of terminal output
+- ip_result.png – screenshot of terminal output
 
 ## Outcome
 Learned to scan a network, identify open ports, analyze services, and recognize potential vulnerabilities.  improve this readme and add part of wireshark
